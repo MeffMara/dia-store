@@ -5,93 +5,53 @@
 // endinject
 
 // styles.scss
-#content_All{
-    width: 975px;
-    margin: 0 auto;
-
-    img{
-        width: 975px;
-    }
-}
-#dropdown-menu,#dropdown-menulink{
+*{
     margin: 0;
     padding: 0;
-    list-style: none;
+    box-sizing: border-box;
 }
 
-#dropdown-menu{
+.wrapper{
+    max-width: 1400px;
+}
+header{
     display: flex;
     justify-content: space-between;
-    width: 960px;
-    margin: 60 px auto;
-    border: 1px solid #1B2828;
-    background-color: #111;
-    background-image: linear-gradient(#444, #111);
-    border-radius: 6px;
-    box-shadow: 0 1px 1px #313030;
-    zoom: 1;
+    max-width: 100%;
+    height: 60px;
+    background-color: #012757;
 }
-#dropdown-menu li{
-    width: 8em;
-    text-align: center;
-}
-#dropdown-menu li:hover{
-    background-color: #0186ba;
-    background-image: linear-gradient(#04acec, #0186ba);
-}
-#dropdown-menu a{
-    color: white;
-    text-decoration: none;
-    text-align: center;
-}
-#dropdown-menulink{
-    visibility: hidden;
-    position: absolute;
-    z-index: 1;    
-    background: #444;   
-    background: linear-gradient(#444, #111);
-    box-shadow: 0 -1px 0 rgba(255,255,255,.3);  
-    border-radius: 3px;
-    transition: all .2s ease-in-out;
-}
-#dropdown-menulink li{
-    width: 8em;
-}
-#dropdown-menu li:hover >#dropdown-menulink{
-    opacity: 1;
-    visibility: visible;
-    margin: 0;
-}
-#dropdown-menu ul li:hover{
-    background-color: #0186ba;
-    background-image: linear-gradient(#04acec, #0186ba);
-}
-label{
-    display: flex;
-    // justify-content: space-between;
-}
-    p#invisionText{  visibility: hidden ;
+h1{
         position: relative;
-        margin: 0;
-        width: 140px;
-        text-align: center;
-        left: 35px;
-        color: red;
-        border: 1px solid gray;
-        border-radius: 15px;
+        top: 13%;
+        left: 5%;        
+        color: white;
+        text-shadow: 2px 2px gray;
+    }   
+    h1:hover{
+        text-shadow: 0px 2px 2px gray;
+        }
+h1>span{
+        position: absolute;
+        top: -10%;
+        color: #c4c8ca;
     }
+.menu{
+    // display: inline;
+    width: 50%;
+}    
+.menu ul{
+   display: flex;
+   justify-content: space-between;
+   li{
+       list-style: none;
+       
 
-.color_box{
-    width: 960px;
-    height: 300px;
-    background-color: #04A5E4;
-    background-image: linear-gradient(rgba(2, 68, 85, 0.67),#135D82); 
-}
-    q{  
-        position: relative;
-        top:0%;
-        font-size: 24px;
-        font-family: serif;
-        color: black;
-    }
-
+   }
+   a{
+       color: white;
+       text-decoration: none;
+       text-transform: uppercase;
+       
+   }   
+}   

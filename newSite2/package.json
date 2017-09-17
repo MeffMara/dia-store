@@ -1,0 +1,39 @@
+{
+  "name": "dia-store",
+  "version": "1.0.1",
+  "description": "Mobile repair and sale accessorys",
+  "main": "index.js",
+  "scripts": {
+    "test": "Helloa world"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MeffMara/dia-store.git"
+  },
+  "keywords": [
+    "repair",
+    "mobile",
+    "smartphones",
+    "accessiory"
+  ],
+  "author": "Bakshuk A.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MeffMara/dia-store/issues"
+  },
+  "homepage": "https://github.com/MeffMara/dia-store#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-cache": "^0.4.6",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-imagemin": "^3.3.0",
+    "gulp-jade": "^1.1.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0",
+    "gulp-useref": "^3.1.2",
+    "run-sequence": "^2.1.0",
+    "wiredep": "^4.0.0"
+  }
+}

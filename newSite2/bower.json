@@ -1,0 +1,27 @@
+{
+  "name": "dia-store",
+  "description": "Mobile repair and sale accessorys",
+  "main": "index.js",
+  "authors": [
+    "Bakshuk A."
+  ],
+  "license": "ISC",
+  "keywords": [
+    "repair",
+    "mobile",
+    "smartphones",
+    "accessiory"
+  ],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "^3.3.7"
+  }
+}

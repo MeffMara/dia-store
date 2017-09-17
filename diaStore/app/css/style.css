@@ -13,6 +13,31 @@ header {
   height: 60px;
   background-color: #012757; }
 
+.left {
+  width: 20%; }
+
+.center {
+  position: relative;
+  right: 21%;
+  top: 80%;
+  margin: 0 auto;
+  width: 100%; }
+  .center ul {
+    height: 60px;
+    display: flex;
+    justify-content: space-between; }
+  .center li {
+    list-style: none;
+    height: 60px;
+    line-height: 60px; }
+  .center li:hover {
+    border-bottom: #0150AF 2px solid; }
+  .center a {
+    color: #2F4496;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-shadow: #D0D0D0 0.5px 1px; }
+
 h1 {
   position: relative;
   top: 13%;
@@ -28,15 +53,16 @@ h1 > span {
   top: -10%;
   color: #c4c8ca; }
 
-.menu {
-  width: 50%; }
+.right {
+  position: relative;
+  left: 50%;
+  min-width: 25%;
+  height: 60px; }
 
-.menu ul {
-  display: flex;
-  justify-content: space-between; }
-  .menu ul li {
-    list-style: none; }
-  .menu ul a {
-    color: white;
-    text-decoration: none;
-    text-transform: uppercase; }
+img {
+  position: relative;
+  top: 31%;
+  left: 90%;
+  margin-left: 14px;
+  width: 25px;
+  height: 25px; }
